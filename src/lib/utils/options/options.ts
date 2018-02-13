@@ -60,6 +60,7 @@ export class Options extends ChildableComponent<Application, OptionsComponent> {
         this.values = {};
         this.compilerOptions = {
             target: ts.ScriptTarget.ES3,
+            sourceMap: true,
             module: ts.ModuleKind.None
         };
     }
